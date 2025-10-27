@@ -1,0 +1,3 @@
+python-dotenv
+# alith-sdk 
+# (Conceptual dependency, commented out since it's being mocked)
