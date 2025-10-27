@@ -45,7 +45,7 @@ The goal of this project is to illustrate:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/thamothara7/alith-story-orchestrator.git](https://github.com/thamothara7/alith-story-orchestrator.git)
+    git clone https://github.com/thamothara7/alith-story-orchestrator.git
     cd alith-story-orchestrator
     ```
 
@@ -60,18 +60,20 @@ The goal of this project is to illustrate:
     pip install -r requirements.txt
     ```
 
-4.  **Alith SDK Setup (Conceptual):**
-    This demo assumes you have access to an Alith client and network. In a real-world scenario, you would configure your `ALITH_API_KEY` and other credentials in a `.env` file.
-    Copy `.env.example` to `.env` and fill in your details:
-    ```bash
-    cp .env.example .env
-    ```
-    Then, open `.env` and add:
-    ```
-    ALITH_API_KEY="your_alith_api_key_here"
-    # Other Alith configuration parameters if needed
-    ```
+4. **Alith SDK Setup (Conceptual):**  
+   This demo assumes you have access to an Alith client and network.  
+   In a real-world scenario, you would configure your credentials directly in a `.env` file.  
 
+   Create a new `.env` file in the project root and add your details:
+   ```bash
+   touch .env
+   ```
+
+   Then open `.env` and include:
+   ```
+   ALITH_API_KEY="your_alith_api_key_here"
+   # Other Alith configuration parameters if needed
+   ```
 ## Usage
 
 Run the main orchestrator script:
